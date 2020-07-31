@@ -9,19 +9,13 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'vim-latex/vim-latex'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-latex/vim-latex'
+Plugin 'dense-analysis/ale'
+Plugin 'tpope/vim-fugitive'
+Plugin 'skywind3000/asyncrun.vim'
 "Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
 "Plugin 'kien/ctrlp.vim'
 "Plugin 'vim-airline/vim-airline'

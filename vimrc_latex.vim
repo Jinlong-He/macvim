@@ -21,5 +21,6 @@ let g:Tex_GotoError=0
 set iskeyword+=:
 imap <F3> <ESC><ESC>:w<CR>\ll:only<CR>\lv
 nmap <F3> <ESC>:w<CR>\ll:only<CR>\lv
-imap <F4> <ESC>:w<CR>:!lualatex  % && open %:r.pdf<CR><CR>
-nmap <F4> <ESC>:w<CR>:!lualatex % && open %:r.pdf<CR><CR>
+
+"imap <F4> <ESC>:w<CR>:!lualatex  % && open %:r.pdf<CR><CR>
+"nmap <F4> <ESC>:w<CR>:!lualatex % && open %:r.pdf<CR><CR>
