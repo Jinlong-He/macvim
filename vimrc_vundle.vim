@@ -9,13 +9,14 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-latex/vim-latex'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'dense-analysis/ale'
 Plugin 'tpope/vim-fugitive'
 Plugin 'skywind3000/asyncrun.vim'
+Plugin 'ludovicchabant/vim-gutentags'
+Plugin 'vim-latex/vim-latex'
 "Plugin 'https://github.com/jistr/vim-nerdtree-tabs.git'
 "Plugin 'kien/ctrlp.vim'
 "Plugin 'vim-airline/vim-airline'
