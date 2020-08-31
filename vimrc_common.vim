@@ -17,7 +17,7 @@ set history=500		"保留历史记录
 set guifont=Monaco:h20	"设置字体为Monaco，大小20
 
 winpos 0 10 " 窗口位置
-set lines=80 columns=114 " 设置初始界面大小
+set lines=55 columns=110 " 设置初始界面大小
 
 set tabstop=4		"设置tab的跳数
 set shiftwidth=4
