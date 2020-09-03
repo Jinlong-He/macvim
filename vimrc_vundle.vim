@@ -9,6 +9,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'iamcco/mathjax-support-for-mkdp'
+Plugin 'iamcco/markdown-preview.vim'
 Plugin 'ParamagicDev/vim-medic_chalk'
 Plugin 'arzg/vim-colors-xcode'
 Plugin 'https://github.com/scrooloose/nerdtree.git'
